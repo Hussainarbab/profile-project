@@ -1,0 +1,85 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    position: fixed;
+    width: 100%;
+}
+
+.navbar ul li{
+    list-style: none;
+    cursor: pointer;
+}
+
+#about{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+
+.images{
+    background-color: pink;
+
+}
+
+.heading{
+background-color: yellow;
+padding: 20px;
+width: 700px;
+padding-top: 140px;
+}
+.heading button{
+    padding: 12px;
+    border-radius: 20px;
+    background-color: blue;
+    border-color: red;
+    color: white;
+}
+
+.heading button:hover{
+    background-color: rgba(0, 0, 255, 0.74);
+    cursor: pointer;
+
+   
+}
+
+#projects{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.proj {
+    box-shadow: rgba(0, 0, 0, 0.844) 0px 5px 15px;
+    height: 300px;
+    overflow-y: scroll;
+}
+.proj img{
+    width: 230px;
+    opacity: 0.9;
+
+}
+
+.lists{
+    line-height: 12px;
+    padding: 12px;
+}
+
+.morebtn{
+    padding: 12px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.844) 0px 5px 15px;
+    
+}
